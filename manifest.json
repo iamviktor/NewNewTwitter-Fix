@@ -1,6 +1,6 @@
 {
   "name": "NewNewTwitter Swap panels",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Swaps dashboard and content blocks for #NewNewTwitter interface.",
  "content_scripts" : [
     {
