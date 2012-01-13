@@ -1,0 +1,21 @@
+{
+  "name": "NewNewTwitter Swap panels",
+  "version": "0.1.0",
+  "description": "Swaps dashboard and content blocks for #NewNewTwitter interface.",
+//  "background_page" : "background.html",
+ "content_scripts" : [
+    {
+      "matches" : [
+        "http://twitter.com/*",
+        "https://twitter.com/*"
+      ],
+      "js" : ["contentscript.js"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "permissions": [
+    "http://twitter.com/",
+    "https://twitter.com/"
+  ]
+}
